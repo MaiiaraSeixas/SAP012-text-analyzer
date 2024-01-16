@@ -1,0 +1,62 @@
+/* Mudando o corpo da pagina escolhendo fonte e centralizando*/
+body {
+    font-family: monospace;
+    text-align: center;
+}
+/*Mudando o titulo escolhendo a cor, tamanho da fonte e fonte */
+header {
+    background-color: rgb(9, 151, 104);
+    color:rgb(0, 255, 170);
+    padding: 20px;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+/*Removendo os pontos do li*/
+ul {
+    list-style: none;
+    width: 50%;
+}
+li {
+    display: flex;
+    border: none;
+}
+/* Selecionando as class no html e estilizando */
+.contagem {
+    background: #7ae45f;
+    border: 6px solid #6eb96b;
+    margin: 9px 0;
+    padding: 12px;
+}
+
+/*Selecionando atributo caixa de texto*/
+textarea[name="user-input"] {
+    width: 80%;
+    height: 92px;
+    margin-bottom: 13px;
+    padding: 11px;
+}
+/* Selecionando o ID e estilizando o botão*/
+#reset-button {
+    background-color: #b0ebaa;
+    color: rgb(91, 218, 65);
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+/* MUdando a cor do botão quando o cursor estiver em cima*/
+#reset-button:hover {
+    background-color: #24b300;
+}
+
+#results {
+    margin-top: 30px;
+}
+/*Mudando a assinatura*/
+footer {
+    color: forestgreen;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
