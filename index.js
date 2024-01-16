@@ -25,7 +25,7 @@ document.addEventListener('input', function () {
     somaNumeros.textContent = 'Soma Total dos Números: ' + analyzer.getNumberSum(texto);
     comprimentoMedioPalavras.textContent = 'Comprimento Médio das Palavras: ' + analyzer.getAverageWordLength(texto);
   });
-  //Estou determinado que o botão de resetar, zere as funções
+  //Estou determinado que o botão de resetar, zere as funções declarando cada uma delas para zerar
   botaoReset.addEventListener('click', function () {
     entradaTexto.value = '';
     contagemPalavras.textContent = 'Contagem de Palavras: 0';
